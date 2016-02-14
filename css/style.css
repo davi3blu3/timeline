@@ -1,7 +1,5 @@
-
-.spacer {
-    max-height: 85vh;
-    overflow: hidden;
+.page-header, .page-footer {
+    text-align: center;
 }
 
 blockquote {
@@ -54,6 +52,7 @@ blockquote {
         .timeline > li > .timeline-panel {
             width: 46%;
             float: left;
+            background: white;
             border: 1px solid #d4d4d4;
             border-radius: 2px;
             padding: 20px;
@@ -97,7 +96,7 @@ blockquote {
             top: 16px;
             left: 50%;
             margin-left: -25px;
-            background-color: #999999;
+            background-color: #84389c;
             z-index: 100;
             border-top-right-radius: 50%;
             border-top-left-radius: 50%;
@@ -122,26 +121,6 @@ blockquote {
                 left: -14px;
                 right: auto;
             }
-
-.timeline-badge.primary {
-    background-color: #2e6da4 !important;
-}
-
-.timeline-badge.success {
-    background-color: #3f903f !important;
-}
-
-.timeline-badge.warning {
-    background-color: #f0ad4e !important;
-}
-
-.timeline-badge.danger {
-    background-color: #d9534f !important;
-}
-
-.timeline-badge.info {
-    background-color: #5bc0de !important;
-}
 
 .timeline-title {
     margin-top: 0;
